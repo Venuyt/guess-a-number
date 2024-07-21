@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+body{
+    background-color: #0f2734;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 450px;
+    background-color: #ddd;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(24, 23, 23);
+
+}
+h1{
+    margin-bottom: 20px;
+    text-shadow:5px 5px 10px rgb(180, 172, 172); ;
+}
+#inputbox{
+    height: 20px;
+    width:40%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(24, 23, 23);
+    border: none;
+    outline: none;
+}
+button {
+    height: 20px;
+width:20%;
+border-radius: 5px;
+box-shadow: 5px 5px 10px rgb(24, 23, 23);
+border: none;
+outline: none;
+font-weight: bold;
+}
